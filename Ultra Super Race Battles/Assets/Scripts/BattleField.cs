@@ -6,9 +6,9 @@ public class BattleField : MonoBehaviour
 {
     [SerializeField]
     public GameObject team1Ranged;
-    //public Gameobject team1Melee;
+    public GameObject team1Melee;
     public GameObject team2Ranged;
-    //public Gameobject team2Melee;
+    public GameObject team2Melee;
 
     private Vector3[] team1Spawns = new Vector3[5];
     //private Vector3[] team2Spawns = new Vector3[5];
@@ -24,7 +24,9 @@ public class BattleField : MonoBehaviour
         team1Spawns[4] = new Vector3(-3, -3, 0);
         Debug.Log("Spawn points ready, instantiating...");
         Instantiate(team1Ranged, team1Spawns[0], Quaternion.identity);
-        Instantiate(team1Ranged, team2Spawns[0], Quaternion.Euler(0, 180, 0));
+        Instantiate(team2Melee, team2Spawns[4], Quaternion.Euler(0, 180, 0));
+        Instantiate(team2Ranged, team2Spawns[3], Quaternion.Euler(0, 180, 0));
+        Instantiate(team1Melee, team1Spawns[1], Quaternion.identity);
     }
 
     // Update is called once per frame

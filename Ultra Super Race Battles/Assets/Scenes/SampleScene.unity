@@ -434,7 +434,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d17bdcf983e1c4b46837dffd834c59c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6dc2c4a4d5575442a74e7b7127cf7ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -472,5 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb856d1a941d79d43a26f6e8229f8b67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  team1Ranged: {fileID: 2084831216182392482, guid: 02774ee147f8bcc41851d41d52b68a3a, type: 3}
-  team2Ranged: {fileID: 2084831216182392482, guid: 02774ee147f8bcc41851d41d52b68a3a, type: 3}
+  team1Ranged: {fileID: 8233886123086700291, guid: ea363750de7caa04ba93f323f9423640, type: 3}
+  team1Melee: {fileID: 5306253487124055324, guid: 6c2ba0578666cee4d8b4c537f58c7914, type: 3}
+  team2Ranged: {fileID: 906148875712808249, guid: 4491971781f2ad2419e8ebf41d8c7c88, type: 3}
+  team2Melee: {fileID: 2396820990641189073, guid: 71625994e3461604199d951609850766, type: 3}
